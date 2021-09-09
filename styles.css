@@ -7,7 +7,7 @@
 body {
     font-family: 'Urbanist', sans-serif !important;
     background-image: url("/images/background-image.png");
-    background-position: top;
+    background-position:top;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -21,7 +21,7 @@ body {
     align-items: baseline !important;
 }
 main {
-    height: 700px;
+    height: 600px;
 }
 section {
     background-color: #ffffff;
@@ -53,12 +53,20 @@ p a:hover, ul a:hover{
     color: var(--main-color) !important;
 }
 
+
 footer {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 10px;
 }
 
+/* About Page Styles */
+
+.gallery-box {
+    text-align: center;
+}
+
+/* Responsive Styles */
 @media (max-width: 1050px) {
     main {
         height: 400px;
