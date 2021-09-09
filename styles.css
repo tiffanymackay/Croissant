@@ -30,6 +30,18 @@ section {
 img {
     margin: 0 auto;
 }
+.button {
+    background-color: var(--main-color);
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: var(--box-shadow);
+    border: none;
+    color:#000000 !important;
+}
+.button:hover {
+    background-color: var(--secondary-color);
+    color:#ffffff !important;
+}
 p {
     font-size: 1.2rem;
 }
@@ -40,16 +52,7 @@ section a {
 p a:hover, ul a:hover{
     color: var(--main-color) !important;
 }
-button {
-    background-color: var(--main-color);
-    border-radius: 10px;
-    padding: 5px 15px 5px 15px;
-    box-shadow: var(--box-shadow);
-    border: none;
-}
-button:hover {
-    background-color: var(--secondary-color);
-}
+
 footer {
     text-align: center;
     padding-bottom: 20px;
