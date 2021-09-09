@@ -65,6 +65,9 @@ footer {
 .gallery-box {
     text-align: center;
 }
+.gallery-box + img {
+    max-width: 90%;
+}
 
 /* Responsive Styles */
 @media (max-width: 1050px) {
