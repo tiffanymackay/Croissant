@@ -1,0 +1,77 @@
+:root {
+    --box-shadow: 1px 2px 1px 1px rgba(205, 171, 131, 0.3);
+    --main-color: #CDAB83;
+    --secondary-color: #925210;
+  }
+
+body {
+    font-family: 'Urbanist', sans-serif !important;
+    background-image: url("/images/background-image.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bg-light {
+    --bs-bg-opacity: .5 !important;
+}
+.logo-title {
+    font-size: 3rem !important;
+}
+.container-fluid {
+    align-items: baseline !important;
+}
+main {
+    height: 700px;
+}
+section {
+    background-color: #ffffff;
+    padding: 30px 10px 30px 10px;
+}
+img {
+    margin: 0 auto;
+}
+p {
+    font-size: 1.2rem;
+}
+section a {
+    color: var(--secondary-color) !important;
+    text-decoration: none;
+}
+p a:hover, ul a:hover{
+    color: var(--main-color) !important;
+}
+button {
+    background-color: var(--main-color);
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: var(--box-shadow);
+    border: none;
+}
+button:hover {
+    background-color: var(--secondary-color);
+}
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+@media (max-width: 1050px) {
+    main {
+        height: 400px;
+    }
+    section {
+        padding: 15px;
+    }
+}
+@media (max-width: 669px) {
+    main {
+        height: 300px;
+    }
+}
+
+@media (max-width: 440px) {
+    main {
+        height: 200px;
+    }
+}
