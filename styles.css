@@ -65,8 +65,9 @@ footer {
 .gallery-box {
     text-align: center;
 }
-.gallery-box + img {
-    max-width: 90%;
+.gallery-img {
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 /* Responsive Styles */
@@ -88,4 +89,5 @@ footer {
     main {
         height: 200px;
     }
+    
 }
